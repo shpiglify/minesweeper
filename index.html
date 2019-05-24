@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css\minesweeper.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="motherBoard">
+        <div class="dropdown">
+            <button title="settings" onclick="dropdownCSS()" class="dropbtn">⚙️</button>
+            <div id="myDropdown" class="dropdown-content">
+                <button class="Beginner" onclick="setLevelToBeginner()">Beginner</button>
+                <button class="Intermediate" onclick="setLevelToIntermediate()">Intermediate</button>
+                <button class="Expert" onclick="setLevelToExpert()">Expert</button>
+            </div>
+        </div>
+
+        <div class="settings">
+            <button title="hint" class="hint" onclick="showHint()"></button>
+        </div>
+        <div class='menu'>
+            <button class="bombsCount"><span>000</span></button>
+            <button title="restart" id="smiley" onmousedown="applyCSSOnSmiley(event)" onmouseup="applyCSSOnSmiley(event)"
+                onclick='initGame()'></button>
+            <button class="clock"><span>000</span></button>
+        </div>
+
+        <table>
+
+        </table>
+
+    </div>
+
+
+    <script src="js\main.js"></script>
+</body>
+
+</html>
