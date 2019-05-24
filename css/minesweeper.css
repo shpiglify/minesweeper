@@ -1,0 +1,262 @@
+@font-face{
+   font-family:'digital-clock-font';
+   src: url(DIGITAL.otf);
+  }
+
+
+button:focus{
+   outline: rgba(221, 221, 221, 0)
+}
+
+body{
+   background-color: rgb(247, 247, 247);
+}
+  /* Dropdown Button */
+.dropbtn {
+   background-color:rgb(190, 183, 183);
+   border-right: solid 3px grey;
+   border-left: solid 3px rgb(204, 202, 202);
+   border-top: solid 3px rgb(201, 198, 198);
+   border-bottom: solid 3px grey;
+   color: white;
+   padding: 1px;
+   font-size: 16px;
+   
+ }
+ 
+ /* Dropdown button on hover & focus */
+ .dropbtn:hover, .dropbtn:focus {
+   background-color: rgb(172, 171, 171);
+ }
+ 
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+   position: absolute;
+   transform: translate(-45px,-15px);
+   display: inline-block;
+ }
+ 
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+   
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ 
+ 
+ /* Change color of dropdown links on hover */
+ .dropdown-content a:hover {background-color: #ddd}
+ 
+ /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+ .show {
+   
+    display:flex;
+    flex-direction: column;
+   }
+
+body{
+   display: flex;
+   flex-direction: row;
+}
+  .menu button{
+     height: 47px;
+     width: 70px;
+    padding: 0px;
+   font-family:'digital-clock-font';
+   font-size: 49px;
+   text-align: center;
+   border: 2px solid rgb(37, 0, 0);
+   background-color: rgb(37, 0, 0);
+   
+   /* display: flex; */
+    /* border-style: solid; */
+    color: red;
+  
+    
+  }
+
+  div.settings{
+     position: absolute;
+     transform: translate(-14px,-45px)
+
+ 
+  }
+ 
+  div.settings button{
+height: 30px;
+background-color: rgb(196, 196, 196);
+  }
+  div.settings button.hint{
+     border: 3px solid ;
+     border-color: grey;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   background-image: url(hint.png);
+   width: 30px;
+  
+  }
+
+div.motherBoard {
+position:relative;
+top:30px;
+display: inline-block;
+justify-content:space-evenly;
+align-items: stretch;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    padding: 15px;
+    border-style: solid;
+    border-color: grey;
+    border-top: whitesmoke;
+    border-left: whitesmoke;
+   border-width: 4px;
+   background-color: rgb(196, 196, 196);
+}
+
+div.menu{
+   background-color: rgb(196, 196, 196);
+   display: flex;
+   justify-content: space-between; 
+   border-color: grey;
+   border-style: solid;
+   border-width: 6px;
+   /* background-color: grey; */
+   margin-bottom: 15px;
+   border-bottom: whitesmoke solid 6px;
+   border-right: whitesmoke solid 6px;
+}
+
+#smiley {
+   background-color: rgb(196, 196, 196);
+   display: flex;
+    padding: 4px;
+border: 2px solid  rgb(196, 196, 196);
+    height: 55px;
+    width: 55px;
+    color: beige;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+.happy{
+   background-image: url(happy.png);
+}
+
+.happyPressed{
+   background-image: url(happyPressed.png);
+}
+
+.dead{
+   background-image: url(dead.png);
+}
+
+.sunglasses{
+   background-image: url(sunglasses.png);
+}
+
+.surprised{
+   background-image: url(surprised.png);
+}
+
+
+
+
+table {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: auto;
+    padding: 0px;
+    border-style: solid;
+   border-width: 6px;
+   background-color: grey;
+   /* border-color: rgb(0, 0, 0); */ 
+       /* border-style: solid; */
+       border-bottom: whitesmoke solid 6px;
+    border-right: whitesmoke solid 6px;
+
+   }
+
+td {
+    height: 26px;
+    width: 26px;
+    color: beige;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+
+.blank {
+    background-image: url(blank.png);
+   
+ }
+ 
+.flagged {
+    background-image: url(flagged.png);
+ }
+ 
+.bombRevealed {
+    background-image: url(bombRevealed.jpg);
+ }
+ .bombDeath {
+    background-image: url(bombDeath.jpg);
+ }
+
+.open0 {
+    background-image: url(open0.png);
+ }
+ 
+.open1 {
+    background-image: url(open1.png);
+ }
+
+ .open2 {
+    background-image: url(open2.png);
+ }
+
+ 
+.open3 {
+    background-image: url(open3.png);
+ }
+
+ .open4 {
+    background-image: url(open4.png);
+ }
+
+ .open5 {
+    background-image: url(open5.png);
+ }
+
+ .open6 {
+    background-image: url(open6.png);
+ }
+
+ .open7 {
+    background-image: url(open7.png);
+ }
+
+ .open8 {
+    background-image: url(open8.png);
+ }
+
+
+
+
+
+
+
+
+
