@@ -1,3 +1,14 @@
+// Make sure sw are supported
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+            .register('../sw_cached_site.js')
+            .then(reg => console.log(`Service Worker: Registered ${reg}`))
+            .catch(err => console.log(`Service Worker: Error: ${err}`));
+    });
+}
+
+
 'use strict'
 'MINESWEEPER GAME'
 //global veriables in here:
@@ -114,15 +125,15 @@ function initGame() {
     var elTds = document.querySelectorAll('td')
     for (let i = 0; i < elTds.length; i++) {
         elTds[i].classList = 'blank'
-        elTds[i].addEventListener('mousedown',(ev)=>{
-          if(!getCell(ev.target).isOpen && gGameState.isOn === true && ev.target.classList[0]!='flagged'){
-            ev.target.classList = 'open0'
-          }
+        elTds[i].addEventListener('mousedown', (ev) => {
+            if (!getCell(ev.target).isOpen && gGameState.isOn === true && ev.target.classList[0] != 'flagged') {
+                ev.target.classList = 'open0'
+            }
         })
-        elTds[i].addEventListener('mouseout',(ev)=>{
-          if(!getCell(ev.target).isOpen && gGameState.isOn === true && ev.target.classList[0]!='flagged'){
-            ev.target.classList = 'blank'
-          }
+        elTds[i].addEventListener('mouseout', (ev) => {
+            if (!getCell(ev.target).isOpen && gGameState.isOn === true && ev.target.classList[0] != 'flagged') {
+                ev.target.classList = 'blank'
+            }
         })
     }
     var elSmiley = document.getElementById("smiley")
@@ -478,6 +489,6 @@ function getStrHtmlTableWithIds(rows, cols) {
     return strHtml
 }
 
-function dropdownCSS(){
+function dropdownCSS() {
     document.querySelector('.dropdown-content').classList.toggle("show");
 }
