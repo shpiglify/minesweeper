@@ -1,6 +1,6 @@
 @font-face{
    font-family:'digital-clock-font';
-   src: url(./DIGITAL.otf);
+   src: url(../assets/fonts/DIGITAL.otf);
   }
 
 
@@ -97,7 +97,7 @@ background-color: rgb(196, 196, 196);
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
-   background-image: url(./hint.png);
+   background-image: url(../assets/images/hint.png);
    width: 30px;
   
   }
@@ -149,23 +149,23 @@ border: 2px solid  rgb(196, 196, 196);
 
 
 .happy{
-   background-image: url(./happy.png);
+   background-image: url(../assets/images/happy.png);
 }
 
 .happyPressed{
-   background-image: url(./happyPressed.png);
+   background-image: url(../assets/images/happyPressed.png);
 }
 
 .dead{
-   background-image: url(./dead.png);
+   background-image: url(../assets/images/dead.png);
 }
 
 .sunglasses{
-   background-image: url(./sunglasses.png);
+   background-image: url(../assets/images/sunglasses.png);
 }
 
 .surprised{
-   background-image: url(./surprised.png);
+   background-image: url(../assets/images/surprised.png);
 }
 
 
@@ -200,56 +200,56 @@ td {
 
 
 .blank {
-    background-image: url(./blank.png);
+    background-image: url(../assets/images/blank.png);
    
  }
  
 .flagged {
-    background-image: url(./flagged.png);
+    background-image: url(../assets/images/flagged.png);
  }
  
 .bombRevealed {
-    background-image: url(./bombRevealed.png);
+    background-image: url(../assets/images/bombRevealed.png);
  }
  .bombDeath {
-    background-image: url(./bombDeath.jpg);
+    background-image: url(../assets/images/bombDeath.jpg);
  }
 
 .open0 {
-    background-image: url(./open0.png);
+    background-image: url(../assets/images/open0.png);
  }
  
 .open1 {
-    background-image: url(./open1.png);
+    background-image: url(../assets/images/open1.png);
  }
 
  .open2 {
-    background-image: url(./open2.png);
+    background-image: url(../assets/images/open2.png);
  }
 
  
 .open3 {
-    background-image: url(./open3.png);
+    background-image: url(../assets/images/open3.png);
  }
 
  .open4 {
-    background-image: url(./open4.png);
+    background-image: url(../assets/images/open4.png);
  }
 
  .open5 {
-    background-image: url(./open5.png);
+    background-image: url(../assets/images/open5.png);
  }
 
  .open6 {
-    background-image: url(./open6.png);
+    background-image: url(../assets/images/open6.png);
  }
 
  .open7 {
-    background-image: url(./open7.png);
+    background-image: url(../assets/images/open7.png);
  }
 
  .open8 {
-    background-image: url(./open8.png);
+    background-image: url(../assets/images/open8.png);
  }
 
 
